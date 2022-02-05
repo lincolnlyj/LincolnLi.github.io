@@ -5,4 +5,4 @@ order: 4
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+用于记录工作和学习中遇到的问题，以及生活中一些杂七杂八的感想。
