@@ -192,7 +192,7 @@ jekyll_compose:
       comments: true
 
 google_analytics:
-  id: 'G-8Y7CSC7NC4'   # fill in your Google Analytics ID
+  id: 'G-WTJR0E8F3E'   # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
