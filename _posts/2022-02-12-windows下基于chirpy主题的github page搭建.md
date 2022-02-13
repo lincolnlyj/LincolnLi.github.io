@@ -2,7 +2,7 @@
 layout: post
 title: windows下基于chirpy主题的github page搭建
 description:
-category:
+category: [环境配置]
 tags:
 math: true
 mermaid: true
