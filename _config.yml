@@ -23,9 +23,7 @@ title: Lincoln Li                          # the main title
 tagline: Lincoln Li's blogs   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Lincoln Li's blogs
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://lincolnlyj.github.io'
@@ -53,13 +51,13 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 
 # ↑ --------------------------
 
-
-google_analytics:
-  id: 'G-F8EK6YKQ7F'   # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+site:
+  google_analytics:
+    id: 'G-F8EK6YKQ7F'   # fill in your Google Analytics ID
+    # Google Analytics pageviews report settings
+    pv:
+      proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+      cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -85,7 +83,23 @@ img_cdn:
 avatar: /assets/img/avatar.png
 
 # boolean type, the global switch for ToC in posts.
-toc: true
+panel:
+  # 设置显示在帖子中右侧边栏的内容
+  # 
+  # 提示:
+  #   全局开关为 false 时必定不显示对应块。
+  #   全局开关为 true 时，可以在帖子的 md 文件头部使用形如:
+  #      lastmod: false
+  #   的方式为该帖子单独关闭右侧边栏的功能。
+  post:
+    # 最近更新
+    lastmod: true
+    # 热门标签
+    trending_tags: true
+    # 外部链接
+    external_links: false
+    # 目录
+    toc: true
 
 comments:
   active: utterances        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
