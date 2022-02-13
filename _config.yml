@@ -32,7 +32,7 @@ github:
   username: lincolnlyj             # change to your github username
 
 # twitter:
-#   username: LincolnLyj            # change to your twitter username
+#   username: username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,23 +41,22 @@ social:
   email: lincolnlyj@outlook.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/LincolnLyj      # change to your twitter homepage
+    # - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/lincolnlyj       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: # change to your verification string
 
 # ↑ --------------------------
 
-site:
-  google_analytics:
-    id: 'G-F8EK6YKQ7F'   # fill in your Google Analytics ID
-    # Google Analytics pageviews report settings
-    pv:
-      proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-      cache_path:       # the local PV cache data, friendly to visitors from GFW region
+google_analytics:
+  id: 'G-F8EK6YKQ7F'   # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -95,7 +94,7 @@ panel:
     # 最近更新
     lastmod: true
     # 热门标签
-    trending_tags: true
+    trending_tags: false
     # 外部链接
     external_links: false
     # 目录
