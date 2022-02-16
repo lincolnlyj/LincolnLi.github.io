@@ -111,13 +111,13 @@ tags: [TAG]     # TAG names should always be lowercase
 
 ### 利用插件辅助
 
-也可以利用一些插件来辅助发布博客，本次选用了[ jekyll-compose](https://github.com/jekyll/jekyll-compose)插件，安装时在Gemfile中加入如下代码
+也可以利用一些插件来辅助发布博客，本次选用了[jekyll-compose](https://github.com/jekyll/jekyll-compose)插件，安装时在Gemfile中加入如下代码
 
 ```
 gem 'jekyll-compose', group: [:jekyll_plugins]
 ```
 
-再在控制台中执行`bundle`命令即可，使用方法参见jekyll-compose的README.md即可。
+再在控制台中执行`bundle`命令即可，使用方法参见[jekyll-compose](https://github.com/jekyll/jekyll-compose)的README.md即可。
 
 ## 参考链接
 
