@@ -4,8 +4,8 @@ title: windows下基于chirpy主题的github page搭建
 description:
 category: [环境配置]
 tags:
-math: true
-mermaid: true
+math: false
+mermaid: false
 comments: true
 date: 2022-02-12 22:57 +0800
 ---
@@ -80,7 +80,7 @@ date: 2022-02-12 22:57 +0800
 
 ### 修改图标和头像
 
-选择一张大小大于等于512$\times$512的图片上传到[此网站](https://realfavicongenerator.net/)（点击<kbd>Select your Favicon image</kbd>），拉到底部选择<kbd>Generate your Favicons and HTML code</kbd>，在新页面下载压缩文件，将其中的`png`和`ico`文件复制到`assets/img/favicons/`文件夹，如果没有就创建即可。
+选择一张大小大于等于512×512的图片上传到[此网站](https://realfavicongenerator.net/)（点击<kbd>Select your Favicon image</kbd>），拉到底部选择<kbd>Generate your Favicons and HTML code</kbd>，在新页面下载压缩文件，将其中的`png`和`ico`文件复制到`assets/img/favicons/`文件夹，如果没有就创建即可。
 
 对于头像，在`_config.yml`文件中将`avatar`设置为图片的相对地址或者网络地址即可
 

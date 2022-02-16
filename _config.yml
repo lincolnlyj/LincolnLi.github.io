@@ -82,23 +82,7 @@ img_cdn:
 avatar: /assets/img/avatar.png
 
 # boolean type, the global switch for ToC in posts.
-panel:
-  # 设置显示在帖子中右侧边栏的内容
-  # 
-  # 提示:
-  #   全局开关为 false 时必定不显示对应块。
-  #   全局开关为 true 时，可以在帖子的 md 文件头部使用形如:
-  #      lastmod: false
-  #   的方式为该帖子单独关闭右侧边栏的功能。
-  post:
-    # 最近更新
-    lastmod: true
-    # 热门标签
-    trending_tags: false
-    # 外部链接
-    external_links: false
-    # 目录
-    toc: true
+toc: true
 
 comments:
   active: utterances        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
@@ -193,13 +177,13 @@ jekyll_compose:
       description: 
       category: 
       tags: 
-      math: true
-      mermaid: true
+      math: false
+      mermaid: false
       comments: true
     posts:
       description: 
       category: 
       tags: 
-      math: true
-      mermaid: true
+      math: false
+      mermaid: false
       comments: true
