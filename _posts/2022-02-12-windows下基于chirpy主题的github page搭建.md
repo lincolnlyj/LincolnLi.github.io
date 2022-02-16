@@ -117,7 +117,7 @@ tags: [TAG]     # TAG names should always be lowercase
 gem 'jekyll-compose', group: [:jekyll_plugins]
 ```
 
-再在控制台中执行`bundle`命令即可，使用方法参见[jekyll-compose](https://github.com/jekyll/jekyll-compose)的README.md即可。
+再在控制台中执行`bundle`命令即可，使用方法参见[jekyll-compose](https://github.com/jekyll/jekyll-compose)的README.md文件即可即可。
 
 ## 参考链接
 
