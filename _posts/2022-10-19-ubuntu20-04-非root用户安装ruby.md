@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu20.04 非root用户安装ruby
 date: 2022-10-19 19:39 +0800
 description:
-category:[环境配置, Linux]
+category: [环境配置, Linux]
 tags:
 math: false
 mermaid: false
